@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ساندرا للتصرف</string>
+    <string name="app_credit">تطوير رضوان الناصر</string>
+    <string name="session_financiere">الجلسة المالية (المحاسبة القانونية)</string>
+    <string name="session_reelle">الجلسة الفعلية (المصنع وتكاليف الإنتاج)</string>
+    <string name="dashboard">لوحة القيادة</string>
+    <string name="invoices">الفواتير والمبيعات</string>
+    <string name="manufacturing">المصنع والإنتاج</string>
+    <string name="accounting">المحاسبة التونسية SCE</string>
+    <string name="currency_symbol">د.ت</string>
+    <string name="timbre_fiscal">الطابع الجبائي (1.000 د.ت)</string>
+</resources>

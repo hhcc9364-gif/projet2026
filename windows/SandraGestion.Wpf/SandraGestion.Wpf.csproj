@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>sandragestion</AssemblyName>
+    <RootNamespace>SandraGestion.Wpf</RootNamespace>
+    <Company>SANDRA GESTION</Company>
+    <Authors>Radhwen Ennaceur</Authors>
+    <Product>SANDRA GESTION - ERP &amp; Comptabilité Tunisienne</Product>
+    <Description>Application de bureau Windows native pour les entreprises et usines tunisiennes - Développé par Radhwen Ennaceur</Description>
+    <Version>1.0.0</Version>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SandraGestion.Core\SandraGestion.Core.csproj" />
+    <ProjectReference Include="..\SandraGestion.Data\SandraGestion.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>

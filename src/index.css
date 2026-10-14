@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-arabic: 'Tajawal', sans-serif;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Tajawal', sans-serif;
+  }
+
+  [dir="rtl"] {
+    font-family: 'Tajawal', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom scrollbar for ERP tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #060d1f;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a6a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

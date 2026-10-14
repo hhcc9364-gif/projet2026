@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SANDRA GESTION</string>
+    <string name="app_credit">Développé par Radhwen Ennaceur</string>
+    <string name="session_financiere">Session Financière (SCE)</string>
+    <string name="session_reelle">Session Réelle (Usine)</string>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="invoices">Factures &amp; Ventes</string>
+    <string name="manufacturing">Usine &amp; Production</string>
+    <string name="accounting">Comptabilité SCE</string>
+    <string name="currency_symbol">TND</string>
+    <string name="timbre_fiscal">Timbre Fiscal (1.000 DT)</string>
+</resources>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SandraGestion.Core</RootNamespace>
+    <AssemblyName>SandraGestion.Core</AssemblyName>
+    <Company>SANDRA GESTION</Company>
+    <Authors>Radhwen Ennaceur</Authors>
+    <Product>SANDRA GESTION ERP &amp; Comptabilité</Product>
+    <Description>Noyau métier, règles fiscales tunisiennes et isolation multi-sociétés développé par Radhwen Ennaceur</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>
